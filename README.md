@@ -75,7 +75,7 @@ We could also use NDCG and other sophisticated metric for evaluation of model.
 
 * No user feature was provided like demographic features,gender,age or other thus the user_feature feed to lightfm model was empty. This led to poor result in test metric. Same can be said by about authors. We do not have their popularity index such as number of followers or total view on combined pratilipis.
 
-* Content based feature should have more depth than just the category. we can encode a summary of each pratilipi into a single feature for better understanding of the content.
+* Content based feature should have more depth than just the category. we can encode a summary of each pratilipi into a single feature for better understanding of the content. Encoding titles of each pratilipi could also be give improvement to the model.
 
 * Also feature representing monthly,yearly and weekly trend can also be included.
 
