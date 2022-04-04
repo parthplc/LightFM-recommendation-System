@@ -5,6 +5,7 @@ Code for Lightfm recommendation system for Interview
 
 * Also only 1 million interaction data was used for recommendation created as the whole task was time consuming in nature.
 
+* During splitting of dataset for each user the percentage is kept 75:25 as train and test  respectively order by datetime rather than absoulte division of dataset on datetime.
 
 * Notebook folder contains two Notebook : </b>
    1. One for EDA, Processing and Cleaning 
